@@ -99,3 +99,15 @@
   transition: box-shadow .2s;
   opacity: 0.75;
 }
+
+
+img {
+  border-radius: 50%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
