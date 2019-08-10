@@ -1,0 +1,63 @@
+@import url(//fonts.googleapis.com/css?family=Vibur);
+
+.font-setting{
+  font-family: "Vibur";
+  color: #fff;
+  font-size: 60px;
+  text-align: center;
+  letter-spacing: 3px;
+  color: #fee;
+}
+.text-style-1{
+  text-shadow: 0 -40px 100px,
+               0 0 2px,
+               0 0 1em #18FFFF,
+               0 0 0.5em #18FFFF,
+               0 0 0.1em #18FFFF,
+               0 10px 3px #000;
+}
+.text-style-2{
+  text-shadow: 0 -40px 100px,
+               0 0 2px,
+               0 0 1em #FFFF00,
+               0 0 0.5em #FFFF00,
+               0 0 0.1em #FFFF00,
+               0 10px 3px #000;
+}
+.holder-letter span{
+  animation: turn-off 2s linear infinite;
+}
+
+@keyframes turn-off{
+  78% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  79%{
+     color: #333;
+  }
+  80% {
+
+    text-shadow: none;
+  }
+  81% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  82% {
+    color: #333;
+    text-shadow: none;
+  }
+  83% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  92% {
+    color: #333;
+    text-shadow: none;
+  }
+  92.5% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+}
