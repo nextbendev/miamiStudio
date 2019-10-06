@@ -98,12 +98,13 @@
   box-shadow: 23px 23px 25px #000;
   transition: box-shadow .2s;
   opacity: 0.75;
-/* }
+  }
+
+* {
+
+}
 
 
-img {
-  border-radius: 50%;
-} */
 
 .center {
   display: block;
